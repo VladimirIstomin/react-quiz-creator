@@ -1,0 +1,22 @@
+@import "../../reusable";
+
+.Quiz {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    flex-grow: 1;
+    width: 100%;
+    background: $GradientBackground;
+
+    h1 {
+        text-align: center;
+        color: $LightGrey;
+        margin-left: 10px;
+    }
+}
+
+.QuizWrapper {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}

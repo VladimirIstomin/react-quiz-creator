@@ -1,0 +1,14 @@
+@import '../../reusable';
+
+
+.QuizCreator {
+  background: $GradientBackground;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-direction: column;
+
+  [class*='wrapper'] {
+    max-width: 600px;
+  }
+}

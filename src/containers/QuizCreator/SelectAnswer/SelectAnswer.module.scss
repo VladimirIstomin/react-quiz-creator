@@ -1,0 +1,20 @@
+@import '../../../reusable';
+
+.Select {
+  display: block;
+  width: 100%;
+  padding: 2px 7px;
+  background-color: $LightGrey;
+  box-sizing: border-box;
+  border: 1px solid $DarkGrey;
+  border-radius: 5px;
+  margin-bottom: 30px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.label {
+  @include label;
+}

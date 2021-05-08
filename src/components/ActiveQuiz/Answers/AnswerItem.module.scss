@@ -1,0 +1,29 @@
+@import "../../../reusable";
+
+@mixin backgroundTransition() {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.AnswerItem {
+  border: 1px solid $LightGrey;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $LightGrey;
+    color: $Green;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+}
+
+.Right {
+  background-color: $Right;
+  @include backgroundTransition;
+}
+
+.Wrong {
+  background-color: $Wrong;
+  @include backgroundTransition();
+}

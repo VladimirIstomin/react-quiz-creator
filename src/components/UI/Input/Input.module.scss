@@ -1,0 +1,38 @@
+@import '../../../reusable';
+
+
+.Input {
+  input {
+    display: inline-block;
+    padding: 2px 7px;
+    background-color: $LightGrey;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid $DarkGrey;
+    border-radius: 5px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &.inputComponent {
+    margin-bottom: 10px;
+  }
+
+  &.inputComponent:nth-last-child(2) {
+    margin-bottom: 30px;
+  }
+
+  
+
+  label {
+    @include label;
+  }
+
+  p {
+    color: $Wrong;
+    margin: 0;
+    padding: 0;
+  }
+}

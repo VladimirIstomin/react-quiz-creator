@@ -1,0 +1,14 @@
+$Green: #91c788;
+$LightGreen: #ddffbc;
+$DarkGreen: #52734d;
+$LightGrey: #eee;
+$DarkGrey: #004445;
+$Right: rgba(81, 201, 34, 0.8);
+$Wrong: rgba(252, 71, 0, 0.8);
+
+$GradientBackground: linear-gradient(45deg,  $Green 0, $DarkGreen 100%);
+
+@mixin label {
+  color: $DarkGrey;
+  font-weight: 500;
+}

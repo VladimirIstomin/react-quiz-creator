@@ -1,0 +1,31 @@
+@import '../../reusable';
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  padding: 40px;
+  background-color: $LightGrey;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px #ccc;
+  width: 80%;
+  height: fit-content;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+
+  form {
+    width: 100%;
+  }
+
+  form div:last-child {
+    display: flex;
+    justify-content: center;
+  }
+
+  .formTitle {
+    margin: 0 0 15px;
+    text-align: center;
+    width: 100%;
+    color: $DarkGrey;
+  }
+}
